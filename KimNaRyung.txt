@@ -1,0 +1,10 @@
+#written by FileProperties
+#Wed Mar 29 23:54:33 KST 2023
+bornYear=2000
+Year=2023
+width=640
+name=knr
+height=100
+StudentId=20200903
+Name=KimNaRyung
+Location=Seoul

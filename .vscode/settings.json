@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "ExamPractice/ch02_Adapter/practice1",
+        "ExamPractice/ch02/practice1",
+        "ExamPractice/ch01_Iterator",
+        "ExamPractice/ch02_Adapter/practice2"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

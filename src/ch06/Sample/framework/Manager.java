@@ -1,0 +1,23 @@
+package ch06.Sample.framework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+// Product 라는 부모 타입으로 코딩이 되어 있음
+// 원칙: Programming to Interface/Abstract Class
+// 
+public class Manager { 
+    private Map<String,Product> showcase = new HashMap<>();
+
+    public void register(String name, Product prototype) {
+        showcase.put(name, prototype); // put- 넣기
+    }
+
+    public Product create(String prototypeName) {
+        Product p = showcase.get(prototypeName); // get- 꺼내오기
+        // return p;
+        // return p.clone(); // 호출 주체가 manager이니까 안 된다.: clone()은 자기 자신만 호출할 수 있다. 
+        return p.createCopy();
+
+    }
+}

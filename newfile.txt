@@ -1,0 +1,6 @@
+#written by FileProperties
+#Wed Mar 29 22:17:16 KST 2023
+depth=32
+width=1024e32432
+name=knr
+height=512
