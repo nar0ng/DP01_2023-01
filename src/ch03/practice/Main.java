@@ -14,9 +14,9 @@ public class Main {
 
         AbstractDisplay s = new StringDisplay("김나령");
 
-        x.open();
-        x.print();
-        x.close();
+        s.open();
+        s.print();
+        s.close();
         };
     }
     

@@ -16,4 +16,6 @@ public abstract class AbstractDisplay {
         }
         close();
     }
+    public void display() {
+    }
 }
