@@ -5,13 +5,13 @@ public class Main {
         Directory rootdir = new Directory("root");
 
         Directory usrdir = new Directory("usr");
-        rootdir.add(usrdir);
+        rootdir.add(usrdir); // rootdir/usrdir
 
         Directory youngjin = new Directory("youngjin");
-        usrdir.add(youngjin);
+        usrdir.add(youngjin); // rootdir/usrdir/youngjin
 
         File file = new File("Composite.java", 100);
-        youngjin.add(file);
+        youngjin.add(file); // rootdir/usrdit/youngjin/composite.java
         rootdir.printList();
 
         System.out.println();

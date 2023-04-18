@@ -35,12 +35,12 @@ public class Directory extends Entry {
 
     @Override
     // prefix 앞의 폴더
-    
+    // 자기 찍고 자식 찍고
     protected void printList(String prefix) {
         System.out.println(prefix + "/" + this);
 
         for (Entry entry: directory) {
-            entry.printList(prefix + "/" + name); // 재귀적 호출 전달받은 prefix/자기이름-> 새로운 prefix
+            entry.printList(prefix + "/" + name); // 재귀적 호출. 전달받은 prefix/자기이름-> 새로운 prefix
                                                   //   경로가 차곡차곡 쌓임
         }
     }
