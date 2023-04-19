@@ -10,9 +10,9 @@ public class Player {
     private int gamecount = 0;
 
     // 이름과 전략을 받아서 플레이어를 만든다 
-    public Player(String name, Strategy strategy) { // 이름, 어느 전략을 사용할지
+    public Player(String name, int i) { // 이름, 어느 전략을 사용할지
         this.name = name;
-        this.strategy = strategy;
+        this.strategy = i;
     }
 
     // 전략에 따라 다음 손을 결정한다

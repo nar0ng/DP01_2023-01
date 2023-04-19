@@ -1,6 +1,7 @@
-package ch02.Q2;
 
 import java.io.IOException;
+
+import hw.ch02.FileProperties;
 
 public class Main {
     public static void main(String[] args) {

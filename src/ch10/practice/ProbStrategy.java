@@ -1,7 +1,7 @@
 package ch10.practice;
 
 import java.util.Random;
-
+// 전략2: 바로 전에 내밀었던 손으로부터, 다음에 내밀 손을 확률적으로 계산한다.
 public class ProbStrategy implements Strategy {
     private Random random;
     private int prevHandValue = 0;
@@ -52,5 +52,11 @@ public class ProbStrategy implements Strategy {
             history[prevHandValue][(currentHandValue + 1) % 3]++; //졌으면 나머지 칸에 1을 더한다. %3을 하는 이유 0 때문이다. 
             history[prevHandValue][(currentHandValue + 2) % 3]++;
         }
+    }
+
+    @Override
+    public void setStrategy(Strategy s) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setStrategy'");
     }
 }

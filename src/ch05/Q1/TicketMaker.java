@@ -6,4 +6,8 @@ public class TicketMaker {
     public int getNextTicketNumber() {
         return ticket++;
     }
+
+    public static TicketMaker getInstance() {
+        return null;
+    }
 }

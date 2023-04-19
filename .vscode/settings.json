@@ -1,10 +1,14 @@
 {
     "java.project.sourcePaths": [
         "src",
+        "ExamPractice/ch06_Prototype/practice",
+        "ExamPractice/ch05_Singleton",
+        "ExamPractice/ch04_Factory",
+        "ExamPractice/ch03_Template",
+        "ExamPractice/ch02_Adapter/practice2",
         "ExamPractice/ch02_Adapter/practice1",
-        "ExamPractice/ch02/practice1",
         "ExamPractice/ch01_Iterator",
-        "ExamPractice/ch02_Adapter/practice2"
+        "ExamPractice/ch10_Strategy"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

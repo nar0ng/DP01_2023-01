@@ -1,7 +1,7 @@
 package ch10.practice;
 
 import java.util.Random;
-
+// 전략1: 이기면 다음 번에도 같은 손을 낸다.
 public class WinningStrategy implements Strategy {
     private Random random; //임의의 수 생성기
     private boolean won = false;
@@ -22,5 +22,11 @@ public class WinningStrategy implements Strategy {
     @Override
     public void study(boolean win) {
         won = win;
+    }
+
+    @Override
+    public void setStrategy(Strategy s) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setStrategy'");
     }
 }
